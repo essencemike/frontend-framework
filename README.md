@@ -56,7 +56,7 @@
     # 本地开发 开启服务
     npm run dev
 ```
-浏览器访问 http://localhost:9527
+浏览器访问 http://localhost:8086
 
 ## 发布
 ```bash
