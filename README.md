@@ -60,11 +60,8 @@
 
 ## 发布
 ```bash
-    # 发布测试环境 带webpack ananalyzer
-    npm run build:sit-preview
-
     # 构建生成环境
-    npm run build:prod
+    npm run build
 ```
 
 ## 目录结构
