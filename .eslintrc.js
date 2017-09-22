@@ -42,6 +42,10 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       'optionalDependencies': ['test/unit/index.js']
     }],
+    'no-underscore-dangle': 'off',
+    'global-require': 'off',
+    'no-param-reassign': 'off',
+    'import/no-dynamic-require': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
